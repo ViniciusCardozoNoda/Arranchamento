@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2? family = Abrir + Sans: wght @ 400; 700 & display = swap');
+
+:root {
+    --primary-color: rgb(#);
+    --primary-color-darker: rgb(#);
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    font-family: 'Opens sans', sans-serif;
+    line-height: 1.5em;
+    background: black
+}
+
+.container {
+    max-width: 640px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.picture {
+    margin: -15px;
+    height: 220px;
+    padding-left: 240px;
+}
+
+form input, form label, form button {
+    display: block;
+    margin: auto;
+    width: 50%;
+    margin-bottom: 10px;
+    
+}
+
+form input {
+    font-size: 24px;
+    margin: auto;
+    height: 50px;
+    padding: 0 20px;
+}
+
+form input:focus {
+    outline: 1px solid var(--primary-color);
+}
+
+form button {
+    border: none;
+    font-size: 16px;
+    font-weight: 300;
+    height: 30px;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-left: 150px;
+}
+
+form button:hover {
+    background: var(--primary-color-darker);
+}
